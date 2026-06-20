@@ -44,7 +44,7 @@ with col1:
 
 with col2:
     stress_level = st.slider("Tingkat Stres (1-10)", min_value=1, max_value=10, value=5)
-    internal_marks = st.number_input("Nilai Internal (0-100)", min_value=0.0, max_value=100.0, value=75.0, step=1.0)
+    internal_marks = st.number_input("Nilai Internal (bebas)", min_value=0.0, max_value=200.0, value=75.0, step=1.0)
     diet_type = st.selectbox("Pola Makan (Diet Type)", ["Veg", "Non-Veg"])
     residence = st.selectbox("Tempat Tinggal", ["Day Scholar", "Hosteller"])
 
